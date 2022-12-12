@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client-side storage</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <h1>Client-side storage</h1>
+    <p>
+        Modern web browsers support a number of ways for websites to store data on the user's computer — with the user's permission — then retrieve it when 
+        necessary.
+
+        <br>
+
+        This let's you persist data for long-term storage, save sites or documents for offline use, retain user-specific settings for your site, and more.
+
+        <br>
+
+        This article explains the very basics of how these work.
+    </p>
+
+    <table>
+        <tr>
+            <th>Perequisites:</th>
+            <td>
+                JavaScript basics (see <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps">first steps</a>,
+                <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks">building blocks</a>,
+                <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects">JavaScript Objects</a>), the 
+                <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Introduction">basics of Client-side APIs</a>
+            </td>
+        </tr>
+
+        <tr>
+            <th>Objective:</th>
+            <td>
+                To learn how to use client-side storage APIs to store application data.
+            </td>
+        </tr>
+    </table>
+
+    <h2>Client-side storage?</h2>
+    <p>
+        Elsewhere in the MDN learning area, we talked about the difference between 
+        <a href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Client-Server_overview#static_sites">static sites</a> and 
+        <a href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Client-Server_overview#dynamic_sites">dynamic sites</a>.
+
+        <br>
+
+        Most major modern websites are dynamic — they store data on the server using some kind of database (server-side storage), then run 
+        <a href="https://developer.mozilla.org/en-US/docs/Learn/Server-side">server-side</a> code to retrieve needed data, insert it into static page templates, 
+        and serve the resulting HTML to the client to be displayed by the user's browser.
+    </p>
+
+    <p>
+        Client-side storage works on similar principles, but has different uses.
+
+        <br>
+
+        It consists of JavaScript APIs that allow you to store data on the client (i.e. on the user's machine) and then retrieve it when needed.
+
+        <br>
+
+        This has many distnict uses, such as:
+    </p>
+    <ul>
+        <li>
+            Personalizing site preferences (e.g. showing a user's choice of custom widgets, color scheme, or font size).
+        </li>
+    </ul>
+</body>
+</html>

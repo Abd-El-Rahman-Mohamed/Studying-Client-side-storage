@@ -1,0 +1,83 @@
+body {
+    background-color: black;
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+    font-family: consolas;
+    font-size: 16pt;
+    line-height: 2rem;
+}
+
+body * {
+    margin: 25px 0;
+}
+
+code br {
+    margin: 0;
+}
+
+code {
+    font-family: monospace;
+}
+
+a {
+    color: #945e26;
+}
+
+table,
+tr,
+th,
+td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+br {
+    display: block;
+    content: "";
+}
+
+.tag::before {
+    content: '<';
+}
+
+.tag::after {
+    content: '>';
+}
+
+.bordered {
+    padding-left: 10px;
+    border: 1px solid white;
+}
+
+.xxsmallText {
+    font-size: x-small;
+}
+
+.bolded {
+    font-weight: bold;
+}
+
+
+
+/***Defining*some*colors***/
+.nearlyMagentaColored {
+    color: #ff86c9;
+}
+
+.summerSkyColored {
+    color: #2cfa9d;
+}
+
+.limeColored {
+    color: lime;
+}
+
+.neonCarrotColored {
+    color: #FFA343
+}
+
+.indent::before {
+    content: '\2003 \2003 \2003'
+}
